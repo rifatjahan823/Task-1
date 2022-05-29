@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Navebar.css'
 
 const Navebar = () => {
@@ -22,16 +23,16 @@ const Navebar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
              <Nav className="me-auto">
-             <Nav.Link href="#home">Home</Nav.Link>
-               <Nav.Link href="#home" to="/blog">Blog</Nav.Link>
+             <Nav.Link as={Link} to="/home">Home</Nav.Link>
+               <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                <Nav.Link href="#home" to="/portfolio">My Portfolio</Nav.Link>
                <Nav.Link href="#home" to="/dashboard">DashBoard</Nav.Link>
              </Nav>
-             <Nav className="ms-auto" style={{backgroundColor:"white",borderRadius:"40px",padding:"5px 30px",boxShadow:'0px 3px 2px -1px'}}>
+            </Navbar.Collapse>
+            <div className="ms-auto d-flex align-items-center"  style={{backgroundColor:"white",borderRadius:"40px",padding:"5px 30px",boxShadow:'0px 3px 2px -1px'}}>
                <Nav.Link href="#home" style={{color:'black',fontSize:"18px"}} className='me-3'>Login</Nav.Link>
                <Nav.Link href="#home" style={{backgroundColor:'#FF6F00',color:'white',width:"120px",height:'40px',borderRadius:'40px'}} >SIGN UP</Nav.Link>
-             </Nav>
-            </Navbar.Collapse>
+             </div>
           </Container>
         </Navbar>
             </div>
