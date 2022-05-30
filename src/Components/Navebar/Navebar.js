@@ -24,9 +24,12 @@ const Navebar = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
              <Nav className="me-auto">
              <Nav.Link as={Link} to="/">Home</Nav.Link>
-               <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
-               <Nav.Link href="#home" to="/portfolio">My Portfolio</Nav.Link>
-               <Nav.Link href="#home" to="/dashboard">DashBoard</Nav.Link>
+               <Nav.Link as={Link} to="">ADVERTISERS</Nav.Link>
+               <Nav.Link as={Link} to="">PUBLISHERS</Nav.Link>
+               <Nav.Link as={Link} to="">INFLUENCERS</Nav.Link>
+               <Nav.Link as={Link} to="">AD FORMATS </Nav.Link>
+               <Nav.Link as={Link} to="">BLOG </Nav.Link>
+               <Nav.Link as={Link} to="">CONTACT US</Nav.Link>
              </Nav>
             </Navbar.Collapse>
             <div className="ms-auto d-flex align-items-center"  style={{backgroundColor:"white",borderRadius:"40px",padding:"5px 30px",boxShadow:'0px 3px 2px -1px'}}>

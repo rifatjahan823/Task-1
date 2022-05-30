@@ -27,14 +27,14 @@ const Service = () => {
                 <div>
                 <FontAwesomeIcon className='icon' icon={faPaperPlane} />
                 <h4 className='my-4'>text 2</h4>
-                <button className='btn'>Hello 1</button>
+                <button className='btn'>Hello 2</button>
                 </div>
                 </div>
                 <div className='col-lg-4 col-md-6 col-12'>
                 <div className=''>
                 <FontAwesomeIcon className='icon' icon={faUser} />
                 <h4 className='my-4'> text 3</h4>
-                <button className='btn'>Hello 1</button>
+                <button className='btn'>Hello 3</button>
                 </div>
                 </div>
             </div>
