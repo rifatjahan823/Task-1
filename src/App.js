@@ -4,6 +4,7 @@ import BannerAd from './Components/Add/BannerAd';
 import Native from './Components/Add/Native';
 import Popunder from './Components/Add/Popunder';
 import Skim from './Components/Add/Skim';
+import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navebar from './Components/Navebar/Navebar';
 
@@ -20,6 +21,7 @@ function App() {
         </Route>
         <Route path="about" element={''} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

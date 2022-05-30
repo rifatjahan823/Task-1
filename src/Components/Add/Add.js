@@ -11,15 +11,21 @@ const Add = () => {
         <div style={{borderTop:"1px dashed #644F9C",width:"32%"}} className=''></div>
       </div>
 
-        <div className='container'>
-        <nav >
-           <ul className='d-flex justify-content-center  list-unstyled my-5 py-4'>
-               <li className='me-5'> <CustomLink to="/">POP-UNDER</CustomLink></li>
-               <li className='me-5'> <CustomLink to="BannerAd">BANNER AD </CustomLink> </li>
-               <li className='me-5'> <CustomLink className='text-decoration-none' to="Native">NATIVE</CustomLink> </li>
-               <li> <CustomLink className='text-decoration-none' to="skim">SKIM</CustomLink> </li>
-           </ul>
-           </nav>
+        <div className='container'>      
+            <div className='row my-5'>
+                <div className='col-lg-3 col-md-6 col-6'>
+                <li className='me-5 list-unstyled'> <CustomLink to="/">POP-UNDER</CustomLink></li>
+                </div>
+                <div className='col-lg-3 col-md-6 col-6'>
+                <li className='me-5 list-unstyled'> <CustomLink to="BannerAd">BANNER AD </CustomLink> </li>
+                </div>
+             <div className='col-lg-3 col-md-6 col-6'>
+             <li className='me-5 list-unstyled'> <CustomLink className='text-decoration-none' to="Native">NATIVE</CustomLink> </li>
+             </div >
+             <div className='col-lg-3 col-md-6 col-6'>      
+         <li className='list-unstyled'> <CustomLink className='text-decoration-none' to="skim">SKIM</CustomLink> </li>
+         </div>
+            </div>
         </div>
         <Outlet></Outlet>
         </div>
