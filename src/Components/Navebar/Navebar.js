@@ -11,7 +11,7 @@ const Navebar = () => {
             <Container>
             <Navbar.Brand href="#home"> <h1 className='logo'>LOGO</h1></Navbar.Brand>
             <Nav className="ms-auto">
-            <Nav.Link href="#home"><span style={{color:'green'}}>BN</span>/EN</Nav.Link>
+            <Nav.Link href="#home"><span style={{color:'green'}}>BN </span>/ EN</Nav.Link>
             </Nav>
             </Container>
             </Navbar>

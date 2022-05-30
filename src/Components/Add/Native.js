@@ -15,9 +15,10 @@ const Native = () => {
            </div>
            <div className='col-12 col-md-7 ps-5 text-start '>
             <h3 className='banner-title'>NATIVE</h3>
-            <p className='banner-content pt-3 pb-5 mb-5'>1.2 Home Page This is one of the most popular ads. After user’s click, this
-              ad opens landing page in behind. So, the user experience is
-                not hampered much.</p>
+            <p className='banner-content pt-3 pb-5 mb-5'>Ad format with the image and the title, that perfectly fits intothe content of the site.
+Native ads are placed in the most visible areas of the page
+and, thus, this format shows good results and the level of
+interaction..</p>
                 <div className='mt-5 pt-4'><a className='' href="#" style={{textDecoration:"none",color:'#644F9C',fontSize:"18px"}}>Learn more  <FontAwesomeIcon className='banner-icon' icon={faExternalLink} /></a></div>
            </div>
         </div>
